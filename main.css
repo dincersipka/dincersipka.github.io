@@ -1,0 +1,70 @@
+html, body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(ellipse at bottom, #0D1E31, #111);
+  overflow: hidden;
+}
+
+a, a:hover, a:active, a:visited 
+{ 
+    color: white; 
+}
+ 
+.background {
+  width: 100%;
+  height: 100vh;
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:5px;
+}
+
+.card {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(52, 52, 52, 0.75);
+    color: aliceblue;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        
+    padding: 35px;
+    gap:20px;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
